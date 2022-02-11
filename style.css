@@ -1,0 +1,179 @@
+/* umumi butun sehife */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow: hidden;
+}
+/* body hissesi */
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* navbar hissesi */
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 22px;
+    margin-top: 14px;
+}
+/* navbar-daki a tegleri */
+nav a{
+    margin: 0 7.5px;
+    color: rgb(0,0,0, 0.87);
+    font-size: 15px;
+}
+/* navbar-daki a tegleri-nin hover effektleri */
+nav a:hover{
+    opacity: .8;
+    text-decoration: underline;
+}
+/* google apps class-i */
+.google-apps{
+    width:24px;
+}
+/* google apps class-na verilen hover effeti */
+.google-apps:hover{
+    opacity: .8;
+}
+/* navbardaki button */
+nav button{
+    background-color: #1a73e8;
+    border: 1px solid #1a73e8;
+    padding: 7px 12px;
+    color: #fff;
+    border-radius: 7px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+/* navbardaki button-a verilen hover effektleri */
+nav button:hover{
+    opacity: .8;
+}
+/* section bolmesi */
+section{
+    transform: translateY(107px);
+    flex: 1;
+}
+/* logo-nun classi */
+.logo-class{
+    display: flex;
+    justify-content: center;
+}
+/* s-box hissesi */
+.s-box{
+    margin: 0 auto;
+    width: 580px;
+    position: relative;
+    padding: 25px 0 25px 0;
+}
+/* axtaris iconu */
+.search-icon{
+    width: 20px;
+    position: absolute;
+    top: 37px;
+    left: 15px;
+}
+/* s-boxdaki input */
+.s-box .s-input{
+    width: 100%;
+    padding: 13px 0 13px 45px;
+    border-radius:25px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+/* s-boxdaki input-a verilen hover effekti */
+.s-input:hover{
+    box-shadow: 0px 1px 3px rgb(192, 185, 185);
+}
+/* voice-speech (mikrofon) */
+.vs-icon{
+    height: 20px;
+    position: absolute;
+    top: 37px;
+    right: 15px;
+    opacity: .9;
+}
+/* s-box'daki iki buttonlarin umumi classi */
+.button-class{
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    padding-top: 18px;
+}
+/* s-box'daki iki buttonlarin ayrica classi */
+.s-btn{
+    padding: 9px 15px;
+    font-size: 14px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+/* s-box'daki buttonlara verilen hover effektleri */
+.s-btn:hover{
+    opacity: .9;
+    cursor: pointer;
+}
+/* s-box'dan sonra gelen dil teklifleri hissesi */
+.lang{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 15px;
+    color: #111;
+}
+/* s-box'dan sonra gelen dil teklifleri hissesindeki a tegleri */
+.lang a{
+    margin-left: 5px;
+    color: #1a0dab;
+}
+/* s-box'dan sonra gelen dil teklifleri hissesindeki a teglerine verilen hover effekti */
+.lang a:hover{
+    text-decoration: underline;
+}
+/* sehifenin son hissesi - footer hissesi */
+footer{
+    display: flex;
+    flex-direction: column;
+}
+/* footer hissesindeki p tegleri */
+footer p{
+    padding: 17px 0px 17px 30px;
+    color: #5f6368;
+    background: #f2f2f2;
+}
+/* footerin ikinci hissesindeki linkler */
+.links{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f2f2f2;
+}
+/* footerin ikinci hissesindeki link-1 */
+.link-1{
+    display: flex;
+    transform:translateX(20px);
+    justify-content: space-between;
+}
+/* footerin ikinci hissesindeki link-1'daki a tegleri */
+.link-1 a{
+    margin: 0 7.5px;
+    color: #5f6368;
+}
+/* footerin ikinci hissesindeki link-2 */
+.link-2{
+    display: flex;
+    transform:translateX(-20px);
+}
+/* footerin ikinci hissesindeki link-2'daki a tegleri */
+.link-2 a{
+    margin: 0 7.5px;
+    color: #5f6368;
+}
+/* footer-deki butun a teglerine verilen hover effekti */
+footer a:hover{
+    text-decoration: underline;
+}
